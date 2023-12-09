@@ -16,7 +16,7 @@ public class GoldSystem extends Pozicia {
 
 
     private static GoldSystem instance = null;
-    public GoldSystem() {
+    private GoldSystem() {
         super(Gdx.graphics.getWidth() - 80, Gdx.graphics.getHeight() - 10);
         this.peniaze = 0;
 
